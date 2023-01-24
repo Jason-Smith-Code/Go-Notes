@@ -11,3 +11,6 @@ func main() {
 	// here we access the fmt package, use the PrintIn method, and pass in a string as the arguement.
   fmt.Println("Hello World!")
 }
+
+
+//  declaring a variable : var variablename type = value

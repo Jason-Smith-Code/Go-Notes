@@ -1,7 +1,7 @@
 // Tell compiler that we are creating an executable package here
 package main
 
-// import any methods we need in the application, these will get automatically imported as you write
+// import any functionality from other libraries we need in the application, these will get automatically imported as you write
 import (
 	"bufio"
 	"fmt"
