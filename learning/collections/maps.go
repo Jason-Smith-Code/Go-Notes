@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 // Maps
+// must contain data of the same type
 
 func main() {
 	// creating a map
@@ -22,5 +23,4 @@ func main() {
 
 	// deleting an element from the map : delete(mapName, key)
 	delete(map1, "john")
-
 }
