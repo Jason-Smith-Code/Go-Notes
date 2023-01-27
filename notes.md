@@ -5,13 +5,9 @@
 https://go.dev/
 https://www.w3schools.com/go/
 
-
-
 Developed by 3 engineers, Ken thompson, Rob Pike, Robert Griesemer in 2007
 Announced 2009
 1.0 release 2012
-
-
 
 ## Language Characteristics
 
