@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 // creating a function : func functionName(arguments) {}
+// a function in GO, can return multiple values
 
 // func main() : the entry point of the application
 
@@ -26,3 +27,6 @@ func startWebServer(port int) (int, error) { // int + error refers to the data t
 func functionName() {
 
 }
+
+
+// functions with receivers : func (receiverVariable receiver) functionName() {}
