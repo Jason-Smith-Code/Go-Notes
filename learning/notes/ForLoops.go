@@ -12,15 +12,20 @@ func main() {
 		sum += i
 	}
 
-	// looping over an array, slice, string, or map, or reading from a channel, a range clause can manage the loop.
-	oldMap := map[string]int{
-		"john": 42,
-		"brian": 12,
-		"Sue" : 52,
-	}
-	newMap := map[string]int {}
-
+	// looping over a map, a range clause can manage the loop.
 	for key, value := range oldMap {
 		newMap[key] = value
+	}
+
+	
+	for key := range oldMap {
+		if key.expired() {
+			delete(oldMap, key)
+		}
+	}
+
+	sum := 0
+	for _, value := range array {
+		sum += value
 	}
 }
